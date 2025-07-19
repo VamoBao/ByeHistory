@@ -18,4 +18,5 @@ export default defineManifest({
     js: ['src/content/main.tsx'],
     matches: ['https://*/*'],
   }],
+  permissions:['activeTab','storage']
 })
